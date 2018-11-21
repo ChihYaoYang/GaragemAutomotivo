@@ -1,0 +1,23 @@
+.col{
+    padding: 0 !important;  /*ignorar*/
+}
+.menu_img{
+    width: 100%;
+    background: url(../img/Menu.svg);
+    background-size: cover;   /* Cover Ajusta a imagem o mais largamente */ 
+}
+#menu ul li a{
+    font-size:25px;
+    font-family: arial;
+    color: black;    
+}
+#menu ul li a:hover {
+    color: red;
+}
+.botao{
+    width: 100%;
+}
+.back{
+    background: url(../img/text.svg);
+    background-size: cover!important;   /* Cover Ajusta a imagem o mais largamente */ 
+}
