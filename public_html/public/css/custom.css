@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin:0;
+}
 .col{
     padding: 0 !important;  /*ignorar*/
 }
@@ -22,10 +26,11 @@
     box-shadow: 0 3px 12px 0 rgba(255,0,0,1);  /*  陰影   */
     transition: .5s;
 }
+.botao1{
+    box-shadow: 0 4px 15px 0 rgba(13,44,200,1);  /*  陰影   */
+}
 .botao1:hover{
-    color: rgba(0,0,0,1);
-    box-shadow: 0 3px 12px 0 rgba(49,119,230,1);  /*  陰影   */
-    transition: .5s;
+    box-shadow: 0 4px 15px 0 rgba(13,44,200,1);
 }
 .back:before {
     content: "";  
@@ -61,4 +66,44 @@ p{
 }
 .text2 img{
     height: 280px;
+}
+.text3{
+    margin-top: 130px;
+}
+.text3 img{
+    height: 300px;
+    width: 680px;
+}
+.back2:before {
+    content: "";  
+    position: absolute;
+    background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
+    width: 100%;
+    height: 60%;
+    transform: skewY(3deg);  /* Girar  */
+    margin-top: -78px;
+}
+@media screen and (max-width: 762px) {    /* Para mobile tela */
+    .back2:before{
+        height: 825px;
+    }
+}
+.rodape:before{
+    content: "";  
+    position: absolute;
+    background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
+    background-image: linear-gradient(135deg,red,blue);
+    width: 100%;
+    height: 25%;
+    margin-top: -78px;
+}
+.rodape{
+    margin-top: 85px;
+}
+.rodape h4{
+    margin-top: 60px;
+}
+.rodape .icon{
+    font-size: 45px;
+    margin-top: 35px;
 }
