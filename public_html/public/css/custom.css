@@ -17,6 +17,16 @@
 .botao{
     width: 100%;
 }
+.botao:hover{
+    color: rgba(0,0,0,1);
+    box-shadow: 0 3px 12px 0 rgba(255,0,0,1);  /*  陰影   */
+    transition: .5s;
+}
+.botao1:hover{
+    color: rgba(0,0,0,1);
+    box-shadow: 0 3px 12px 0 rgba(49,119,230,1);  /*  陰影   */
+    transition: .5s;
+}
 .back:before {
     content: "";  
     position: absolute;
@@ -28,4 +38,27 @@
 }
 .carousel {
     z-index: 50000;
+}
+@media screen and (max-width: 762px) {    /* Para mobile tela */
+    .back:before{
+        height: 780px;
+    }
+}
+.txt{
+    margin-top: 17px;
+}
+.txtimg{
+    margin-top: 30px;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.text2{
+    margin-top: 130px;
+}
+.text2 img{
+    height: 280px;
 }
