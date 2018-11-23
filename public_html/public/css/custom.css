@@ -44,9 +44,9 @@ body{
 .carousel {
     z-index: 50000;
 }
-@media screen and (max-width: 762px) {    /* Para mobile tela */
+@media screen and (max-width: 762px) {    /* Para mobile tela  primeiro parte de text*/
     .back:before{
-        height: 780px;
+        height: 800px;
     }
 }
 .txt{
@@ -79,23 +79,14 @@ p{
     position: absolute;
     background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
     width: 100%;
-    height: 60%;
+    height: 62%;
     transform: skewY(3deg);  /* Girar  */
-    margin-top: -78px;
+    margin-top: -60px;
 }
 @media screen and (max-width: 762px) {    /* Para mobile tela */
     .back2:before{
-        height: 825px;
+        height: 941px;
     }
-}
-.rodape:before{
-    content: "";  
-    position: absolute;
-    background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
-    background-image: linear-gradient(135deg,red,blue);
-    width: 100%;
-    height: 25%;
-    margin-top: -78px;
 }
 .rodape{
     margin-top: 85px;
@@ -106,4 +97,12 @@ p{
 .rodape .icon{
     font-size: 45px;
     margin-top: 35px;
+}
+.rodape1{
+    width: 100%;
+    background: url(../img/rodape.svg);
+    background-size: cover;   /* Cover Ajusta a imagem o mais largamente */ 
+    background-position-y: bottom;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
