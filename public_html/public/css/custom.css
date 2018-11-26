@@ -114,3 +114,12 @@ p{
     margin-top: 99px;
 }
 /* Parte veiculo.html  */
+.buttton{
+    width: 100%;
+}
+.buttton:hover{
+    color: rgba(0,0,0,1);
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,1);  /*  陰影   */
+    transition: .5s;
+}
+/* Parte sobre.html  */
