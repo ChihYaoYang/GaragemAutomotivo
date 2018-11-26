@@ -123,6 +123,9 @@ p{
     box-shadow: 0 3px 12px 0 rgba(0,0,0,1);  /*  陰影   */
     transition: .5s;
 }
+hr{
+    background: grey;
+}
 /* Parte sobre.html  */
 .ttext{
     text-align: justify;
