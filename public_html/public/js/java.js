@@ -4,3 +4,6 @@ $(document).ready(function () {
         pause: false
     });
 });
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
