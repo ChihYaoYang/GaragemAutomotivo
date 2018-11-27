@@ -47,7 +47,7 @@ body{
 }
 @media screen and (max-width: 762px) {    /* Para mobile tela  primeiro parte de text*/
     .back:before{
-        height: 800px; /* original 800px  PC 815px */
+        height: 860px; /* original 800px  PC 815px */
     }
 }
 .txt{
@@ -86,7 +86,7 @@ p{
 }
 @media screen and (max-width: 762px) {    /* Para mobile tela */
     .back2:before{
-        height: 941px; /* original 941px  PC 973px */
+        height: 1030px; /* original 941px  PC 973px */
     }
 }
 .rodape{
@@ -116,7 +116,7 @@ p{
         text-align: center;
     }
     .rodapemenu{
-        font-size: 35px;
+        font-size: 36px;
         margin: 0 auto;
     }
 }
