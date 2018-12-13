@@ -38,7 +38,7 @@ body{
     position: absolute;
     background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
     width: 100%;
-    height: 60%;  /*original 60% PC 72%*/
+    height: 72%;  /*original 60% PC 72%*/
     transform: skewY(-4deg);  /* Girar  */
     margin-top: -78px;
 }
@@ -80,7 +80,7 @@ p{
     position: absolute;
     background-image: linear-gradient(135deg,#6f6f6f,#6f6f6f);
     width: 100%;
-    height: 62%;  /* original 62% PC 78% */
+    height: 78%;  /* original 62% PC 78% */
     transform: skewY(3deg);  /* Girar  */
     margin-top: -60px;
 }
